@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "goods",
+  "info": {
+    "singularName": "good",
+    "pluralName": "goods",
+    "displayName": "good"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "stock": {
+      "type": "biginteger"
+    },
+    "price": {
+      "type": "biginteger"
+    },
+    "discount": {
+      "type": "biginteger"
+    },
+    "color": {
+      "type": "string"
+    },
+    "rank": {
+      "type": "biginteger"
+    },
+    "category": {
+      "type": "string"
+    },
+    "image": {
+      "type": "text"
+    },
+    "adminProfileId": {
+      "type": "string"
+    },
+    "isDeleted": {
+      "type": "boolean"
+    }
+  }
+}
